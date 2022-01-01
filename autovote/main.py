@@ -39,7 +39,7 @@ WebEagle.BrowsingAs.type(input("[$] Enter Account PASSWORD : "), xpath = "/html/
 
 print("[$] READY ")
 WebEagle.BrowsingAs.type(WebEagle.BrowsingAs.Key.ENTER)
-time.sleep(5)
+time.sleep(10)
 
 WebEagle.get("https://top.gg/bot/270904126974590976/vote")
 input("[$] LOGIN TO TOP.GG | PRESS ENTER WHEN READY :: ")
